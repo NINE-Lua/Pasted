@@ -164,23 +164,23 @@ G2L["f"] = Instance.new("LocalScript", G2L["2"]);
 -- StarterGui.ScreenGui.PastedExecutor.LSExecute
 G2L["10"] = Instance.new("TextButton", G2L["2"]);
 G2L["10"]["TextWrapped"] = true;
-G2L["10"]["BorderSizePixel"] = 0;
 G2L["10"]["TextSize"] = 14;
 G2L["10"]["TextScaled"] = true;
 G2L["10"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["10"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["10"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["10"]["BorderMode"] = Enum.BorderMode.Middle;
 G2L["10"]["BackgroundTransparency"] = 0.9;
 G2L["10"]["Size"] = UDim2.new(0, 90, 0, 32);
 G2L["10"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["10"]["Text"] = [[LS Execute (unfinished)]];
+G2L["10"]["Text"] = [[LS Execute]];
 G2L["10"]["Name"] = [[LSExecute]];
 G2L["10"]["Position"] = UDim2.new(0.45826, 0, 0.85902, 0);
 
 
 -- StarterGui.ScreenGui.PastedExecutor.LSExecute.UICorner
 G2L["11"] = Instance.new("UICorner", G2L["10"]);
-
+G2L["11"]["CornerRadius"] = UDim.new(0, 2);
 
 
 -- StarterGui.ScreenGui.PastedExecutor.LSExecute.LocalScript
